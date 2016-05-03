@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pWU-fz-BxY">
+                                <rect key="frame" x="279" y="186" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="目前数据为0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QSW-mQ-WkG">
+                                <rect key="frame" x="134" y="249" width="108" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="5OZ-Ie-Q4o"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s8i-V1-pAr">
+                                <rect key="frame" x="134" y="177" width="107" height="30"/>
+                                <state key="normal" title="点击下载数据"/>
+                                <connections>
+                                    <action selector="download:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DZB-Mm-L8F"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请输入版本号" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pyL-P6-F99">
+                                <rect key="frame" x="136" y="67" width="102" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Yo5-3Z-bfs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="LasereggV16.03-002" borderStyle="roundedRect" placeholder="例:LasereggV16.03-002" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="43J-ql-GrP">
+                                <rect key="frame" x="50" y="113" width="275" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Cj-nM-Tzn">
+                                <rect key="frame" x="164" y="428" width="46" height="30"/>
+                                <state key="normal" title="还原"/>
+                                <connections>
+                                    <action selector="reduction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nxp-7m-DfV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KJX-9D-2mf">
+                                <rect key="frame" x="105" y="309" width="165" height="30"/>
+                                <state key="normal" title="点击连接socket"/>
+                                <connections>
+                                    <action selector="buttonDidClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ta5-p3-Skl"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="43J-ql-GrP" firstAttribute="centerX" secondItem="pyL-P6-F99" secondAttribute="centerX" id="5oK-O0-xNa"/>
+                            <constraint firstItem="QSW-mQ-WkG" firstAttribute="top" secondItem="s8i-V1-pAr" secondAttribute="bottom" constant="42" id="60B-Pw-cuK"/>
+                            <constraint firstItem="43J-ql-GrP" firstAttribute="top" secondItem="pyL-P6-F99" secondAttribute="bottom" constant="25" id="6zl-vu-9CA"/>
+                            <constraint firstItem="pWU-fz-BxY" firstAttribute="leading" secondItem="s8i-V1-pAr" secondAttribute="trailing" constant="38" id="81A-Up-gqs"/>
+                            <constraint firstItem="QSW-mQ-WkG" firstAttribute="centerX" secondItem="s8i-V1-pAr" secondAttribute="centerX" id="AaP-MG-a80"/>
+                            <constraint firstAttribute="trailing" secondItem="KJX-9D-2mf" secondAttribute="trailing" constant="105" id="J9F-2m-bS6"/>
+                            <constraint firstItem="s8i-V1-pAr" firstAttribute="top" secondItem="43J-ql-GrP" secondAttribute="bottom" constant="34" id="QAn-yk-vG8"/>
+                            <constraint firstItem="KJX-9D-2mf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="105" id="TYZ-le-4xl"/>
+                            <constraint firstItem="KJX-9D-2mf" firstAttribute="centerX" secondItem="pyL-P6-F99" secondAttribute="centerX" id="VdJ-P9-uAT"/>
+                            <constraint firstItem="QSW-mQ-WkG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ZNL-6n-l8o"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="KJX-9D-2mf" secondAttribute="bottom" constant="328" id="ads-Gu-eEL"/>
+                            <constraint firstItem="KJX-9D-2mf" firstAttribute="top" secondItem="QSW-mQ-WkG" secondAttribute="bottom" constant="39" id="bTf-1i-S9W"/>
+                            <constraint firstItem="43J-ql-GrP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="34" id="diF-X4-q8k"/>
+                            <constraint firstItem="s8i-V1-pAr" firstAttribute="leading" secondItem="QSW-mQ-WkG" secondAttribute="leading" id="fvS-yM-SSw"/>
+                            <constraint firstItem="s8i-V1-pAr" firstAttribute="bottom" secondItem="pWU-fz-BxY" secondAttribute="bottom" id="ox9-QB-2zO"/>
+                            <constraint firstAttribute="trailing" secondItem="QSW-mQ-WkG" secondAttribute="trailing" id="yYl-ua-S4X"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="Connect" destination="KJX-9D-2mf" id="Zse-PZ-Utk"/>
+                        <outlet property="Download" destination="s8i-V1-pAr" id="8Pe-Nl-aPy"/>
+                        <outlet property="label" destination="QSW-mQ-WkG" id="gJk-px-ftL"/>
+                        <outlet property="textField" destination="43J-ql-GrP" id="a96-Dh-ceg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="270" y="136"/>
+        </scene>
+    </scenes>
+</document>
