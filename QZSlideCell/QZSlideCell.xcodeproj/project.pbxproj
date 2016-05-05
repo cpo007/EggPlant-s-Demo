@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38E02BF01CDB219F004BD9FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E02BEF1CDB219F004BD9FF /* main.m */; };
+		38E02BF31CDB219F004BD9FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E02BF21CDB219F004BD9FF /* AppDelegate.m */; };
+		38E02BF91CDB219F004BD9FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E02BF71CDB219F004BD9FF /* Main.storyboard */; };
+		38E02BFB1CDB219F004BD9FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38E02BFA1CDB219F004BD9FF /* Assets.xcassets */; };
+		38E02BFE1CDB219F004BD9FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E02BFC1CDB219F004BD9FF /* LaunchScreen.storyboard */; };
+		38E02C091CDB219F004BD9FF /* QZSlideCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E02C081CDB219F004BD9FF /* QZSlideCellTests.m */; };
+		38E02C141CDB219F004BD9FF /* QZSlideCellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E02C131CDB219F004BD9FF /* QZSlideCellUITests.m */; };
+		38E02C331CDB21B7004BD9FF /* QZChannelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E02C231CDB21B7004BD9FF /* QZChannelModel.m */; };
+		38E02C341CDB21B7004BD9FF /* Channel.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38E02C251CDB21B7004BD9FF /* Channel.plist */; };
+		38E02C351CDB21B7004BD9FF /* logo_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38E02C261CDB21B7004BD9FF /* logo_0.jpg */; };
+		38E02C361CDB21B7004BD9FF /* logo_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38E02C271CDB21B7004BD9FF /* logo_1.jpg */; };
+		38E02C371CDB21B7004BD9FF /* logo_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38E02C281CDB21B7004BD9FF /* logo_2.jpg */; };
+		38E02C381CDB21B7004BD9FF /* logo_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38E02C291CDB21B7004BD9FF /* logo_3.jpg */; };
+		38E02C391CDB21B7004BD9FF /* logo_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38E02C2A1CDB21B7004BD9FF /* logo_4.jpg */; };
+		38E02C3A1CDB21B7004BD9FF /* logo_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38E02C2B1CDB21B7004BD9FF /* logo_5.jpg */; };
+		38E02C3B1CDB21B7004BD9FF /* logo_6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38E02C2C1CDB21B7004BD9FF /* logo_6.jpg */; };
+		38E02C3C1CDB21B7004BD9FF /* logo_7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38E02C2D1CDB21B7004BD9FF /* logo_7.jpg */; };
+		38E02C3D1CDB21B7004BD9FF /* QZCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E02C301CDB21B7004BD9FF /* QZCollectionViewCell.m */; };
+		38E02C3E1CDB21B7004BD9FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E02C321CDB21B7004BD9FF /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38E02C051CDB219F004BD9FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38E02BE31CDB219F004BD9FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38E02BEA1CDB219F004BD9FF;
+			remoteInfo = QZSlideCell;
+		};
+		38E02C101CDB219F004BD9FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38E02BE31CDB219F004BD9FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38E02BEA1CDB219F004BD9FF;
+			remoteInfo = QZSlideCell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38E02BEB1CDB219F004BD9FF /* QZSlideCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QZSlideCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38E02BEF1CDB219F004BD9FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38E02BF11CDB219F004BD9FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		38E02BF21CDB219F004BD9FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		38E02BF81CDB219F004BD9FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38E02BFA1CDB219F004BD9FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38E02BFD1CDB219F004BD9FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38E02BFF1CDB219F004BD9FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38E02C041CDB219F004BD9FF /* QZSlideCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QZSlideCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38E02C081CDB219F004BD9FF /* QZSlideCellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QZSlideCellTests.m; sourceTree = "<group>"; };
+		38E02C0A1CDB219F004BD9FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38E02C0F1CDB219F004BD9FF /* QZSlideCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QZSlideCellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38E02C131CDB219F004BD9FF /* QZSlideCellUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QZSlideCellUITests.m; sourceTree = "<group>"; };
+		38E02C151CDB219F004BD9FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38E02C221CDB21B7004BD9FF /* QZChannelModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZChannelModel.h; sourceTree = "<group>"; };
+		38E02C231CDB21B7004BD9FF /* QZChannelModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZChannelModel.m; sourceTree = "<group>"; };
+		38E02C251CDB21B7004BD9FF /* Channel.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Channel.plist; sourceTree = "<group>"; };
+		38E02C261CDB21B7004BD9FF /* logo_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_0.jpg; sourceTree = "<group>"; };
+		38E02C271CDB21B7004BD9FF /* logo_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_1.jpg; sourceTree = "<group>"; };
+		38E02C281CDB21B7004BD9FF /* logo_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_2.jpg; sourceTree = "<group>"; };
+		38E02C291CDB21B7004BD9FF /* logo_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_3.jpg; sourceTree = "<group>"; };
+		38E02C2A1CDB21B7004BD9FF /* logo_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_4.jpg; sourceTree = "<group>"; };
+		38E02C2B1CDB21B7004BD9FF /* logo_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_5.jpg; sourceTree = "<group>"; };
+		38E02C2C1CDB21B7004BD9FF /* logo_6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_6.jpg; sourceTree = "<group>"; };
+		38E02C2D1CDB21B7004BD9FF /* logo_7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_7.jpg; sourceTree = "<group>"; };
+		38E02C2F1CDB21B7004BD9FF /* QZCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZCollectionViewCell.h; sourceTree = "<group>"; };
+		38E02C301CDB21B7004BD9FF /* QZCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZCollectionViewCell.m; sourceTree = "<group>"; };
+		38E02C311CDB21B7004BD9FF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		38E02C321CDB21B7004BD9FF /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38E02BE81CDB219F004BD9FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E02C011CDB219F004BD9FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E02C0C1CDB219F004BD9FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38E02BE21CDB219F004BD9FF = {
+			isa = PBXGroup;
+			children = (
+				38E02BED1CDB219F004BD9FF /* QZSlideCell */,
+				38E02C071CDB219F004BD9FF /* QZSlideCellTests */,
+				38E02C121CDB219F004BD9FF /* QZSlideCellUITests */,
+				38E02BEC1CDB219F004BD9FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38E02BEC1CDB219F004BD9FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38E02BEB1CDB219F004BD9FF /* QZSlideCell.app */,
+				38E02C041CDB219F004BD9FF /* QZSlideCellTests.xctest */,
+				38E02C0F1CDB219F004BD9FF /* QZSlideCellUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38E02BED1CDB219F004BD9FF /* QZSlideCell */ = {
+			isa = PBXGroup;
+			children = (
+				38E02C211CDB21B7004BD9FF /* Mode */,
+				38E02C241CDB21B7004BD9FF /* Resource */,
+				38E02C2E1CDB21B7004BD9FF /* View */,
+				38E02C311CDB21B7004BD9FF /* ViewController.h */,
+				38E02C321CDB21B7004BD9FF /* ViewController.m */,
+				38E02BF11CDB219F004BD9FF /* AppDelegate.h */,
+				38E02BF21CDB219F004BD9FF /* AppDelegate.m */,
+				38E02BF71CDB219F004BD9FF /* Main.storyboard */,
+				38E02BFA1CDB219F004BD9FF /* Assets.xcassets */,
+				38E02BFC1CDB219F004BD9FF /* LaunchScreen.storyboard */,
+				38E02BFF1CDB219F004BD9FF /* Info.plist */,
+				38E02BEE1CDB219F004BD9FF /* Supporting Files */,
+			);
+			path = QZSlideCell;
+			sourceTree = "<group>";
+		};
+		38E02BEE1CDB219F004BD9FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38E02BEF1CDB219F004BD9FF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38E02C071CDB219F004BD9FF /* QZSlideCellTests */ = {
+			isa = PBXGroup;
+			children = (
+				38E02C081CDB219F004BD9FF /* QZSlideCellTests.m */,
+				38E02C0A1CDB219F004BD9FF /* Info.plist */,
+			);
+			path = QZSlideCellTests;
+			sourceTree = "<group>";
+		};
+		38E02C121CDB219F004BD9FF /* QZSlideCellUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38E02C131CDB219F004BD9FF /* QZSlideCellUITests.m */,
+				38E02C151CDB219F004BD9FF /* Info.plist */,
+			);
+			path = QZSlideCellUITests;
+			sourceTree = "<group>";
+		};
+		38E02C211CDB21B7004BD9FF /* Mode */ = {
+			isa = PBXGroup;
+			children = (
+				38E02C221CDB21B7004BD9FF /* QZChannelModel.h */,
+				38E02C231CDB21B7004BD9FF /* QZChannelModel.m */,
+			);
+			path = Mode;
+			sourceTree = "<group>";
+		};
+		38E02C241CDB21B7004BD9FF /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				38E02C251CDB21B7004BD9FF /* Channel.plist */,
+				38E02C261CDB21B7004BD9FF /* logo_0.jpg */,
+				38E02C271CDB21B7004BD9FF /* logo_1.jpg */,
+				38E02C281CDB21B7004BD9FF /* logo_2.jpg */,
+				38E02C291CDB21B7004BD9FF /* logo_3.jpg */,
+				38E02C2A1CDB21B7004BD9FF /* logo_4.jpg */,
+				38E02C2B1CDB21B7004BD9FF /* logo_5.jpg */,
+				38E02C2C1CDB21B7004BD9FF /* logo_6.jpg */,
+				38E02C2D1CDB21B7004BD9FF /* logo_7.jpg */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		38E02C2E1CDB21B7004BD9FF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				38E02C2F1CDB21B7004BD9FF /* QZCollectionViewCell.h */,
+				38E02C301CDB21B7004BD9FF /* QZCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38E02BEA1CDB219F004BD9FF /* QZSlideCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38E02C181CDB219F004BD9FF /* Build configuration list for PBXNativeTarget "QZSlideCell" */;
+			buildPhases = (
+				38E02BE71CDB219F004BD9FF /* Sources */,
+				38E02BE81CDB219F004BD9FF /* Frameworks */,
+				38E02BE91CDB219F004BD9FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QZSlideCell;
+			productName = QZSlideCell;
+			productReference = 38E02BEB1CDB219F004BD9FF /* QZSlideCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38E02C031CDB219F004BD9FF /* QZSlideCellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38E02C1B1CDB219F004BD9FF /* Build configuration list for PBXNativeTarget "QZSlideCellTests" */;
+			buildPhases = (
+				38E02C001CDB219F004BD9FF /* Sources */,
+				38E02C011CDB219F004BD9FF /* Frameworks */,
+				38E02C021CDB219F004BD9FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38E02C061CDB219F004BD9FF /* PBXTargetDependency */,
+			);
+			name = QZSlideCellTests;
+			productName = QZSlideCellTests;
+			productReference = 38E02C041CDB219F004BD9FF /* QZSlideCellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38E02C0E1CDB219F004BD9FF /* QZSlideCellUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38E02C1E1CDB219F004BD9FF /* Build configuration list for PBXNativeTarget "QZSlideCellUITests" */;
+			buildPhases = (
+				38E02C0B1CDB219F004BD9FF /* Sources */,
+				38E02C0C1CDB219F004BD9FF /* Frameworks */,
+				38E02C0D1CDB219F004BD9FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38E02C111CDB219F004BD9FF /* PBXTargetDependency */,
+			);
+			name = QZSlideCellUITests;
+			productName = QZSlideCellUITests;
+			productReference = 38E02C0F1CDB219F004BD9FF /* QZSlideCellUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38E02BE31CDB219F004BD9FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Origins;
+				TargetAttributes = {
+					38E02BEA1CDB219F004BD9FF = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					38E02C031CDB219F004BD9FF = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 38E02BEA1CDB219F004BD9FF;
+					};
+					38E02C0E1CDB219F004BD9FF = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 38E02BEA1CDB219F004BD9FF;
+					};
+				};
+			};
+			buildConfigurationList = 38E02BE61CDB219F004BD9FF /* Build configuration list for PBXProject "QZSlideCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38E02BE21CDB219F004BD9FF;
+			productRefGroup = 38E02BEC1CDB219F004BD9FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38E02BEA1CDB219F004BD9FF /* QZSlideCell */,
+				38E02C031CDB219F004BD9FF /* QZSlideCellTests */,
+				38E02C0E1CDB219F004BD9FF /* QZSlideCellUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38E02BE91CDB219F004BD9FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E02C341CDB21B7004BD9FF /* Channel.plist in Resources */,
+				38E02BFE1CDB219F004BD9FF /* LaunchScreen.storyboard in Resources */,
+				38E02C3A1CDB21B7004BD9FF /* logo_5.jpg in Resources */,
+				38E02C351CDB21B7004BD9FF /* logo_0.jpg in Resources */,
+				38E02C3C1CDB21B7004BD9FF /* logo_7.jpg in Resources */,
+				38E02BFB1CDB219F004BD9FF /* Assets.xcassets in Resources */,
+				38E02C381CDB21B7004BD9FF /* logo_3.jpg in Resources */,
+				38E02C361CDB21B7004BD9FF /* logo_1.jpg in Resources */,
+				38E02C371CDB21B7004BD9FF /* logo_2.jpg in Resources */,
+				38E02C391CDB21B7004BD9FF /* logo_4.jpg in Resources */,
+				38E02C3B1CDB21B7004BD9FF /* logo_6.jpg in Resources */,
+				38E02BF91CDB219F004BD9FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E02C021CDB219F004BD9FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E02C0D1CDB219F004BD9FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38E02BE71CDB219F004BD9FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E02C331CDB21B7004BD9FF /* QZChannelModel.m in Sources */,
+				38E02BF31CDB219F004BD9FF /* AppDelegate.m in Sources */,
+				38E02BF01CDB219F004BD9FF /* main.m in Sources */,
+				38E02C3D1CDB21B7004BD9FF /* QZCollectionViewCell.m in Sources */,
+				38E02C3E1CDB21B7004BD9FF /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E02C001CDB219F004BD9FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E02C091CDB219F004BD9FF /* QZSlideCellTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E02C0B1CDB219F004BD9FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E02C141CDB219F004BD9FF /* QZSlideCellUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38E02C061CDB219F004BD9FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38E02BEA1CDB219F004BD9FF /* QZSlideCell */;
+			targetProxy = 38E02C051CDB219F004BD9FF /* PBXContainerItemProxy */;
+		};
+		38E02C111CDB219F004BD9FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38E02BEA1CDB219F004BD9FF /* QZSlideCell */;
+			targetProxy = 38E02C101CDB219F004BD9FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38E02BF71CDB219F004BD9FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38E02BF81CDB219F004BD9FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38E02BFC1CDB219F004BD9FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38E02BFD1CDB219F004BD9FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38E02C161CDB219F004BD9FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		38E02C171CDB219F004BD9FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38E02C191CDB219F004BD9FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QZSlideCell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.origins.QZSlideCell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		38E02C1A1CDB219F004BD9FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QZSlideCell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.origins.QZSlideCell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		38E02C1C1CDB219F004BD9FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QZSlideCellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.origins.QZSlideCellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QZSlideCell.app/QZSlideCell";
+			};
+			name = Debug;
+		};
+		38E02C1D1CDB219F004BD9FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QZSlideCellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.origins.QZSlideCellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QZSlideCell.app/QZSlideCell";
+			};
+			name = Release;
+		};
+		38E02C1F1CDB219F004BD9FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QZSlideCellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.origins.QZSlideCellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QZSlideCell;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		38E02C201CDB219F004BD9FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QZSlideCellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.origins.QZSlideCellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QZSlideCell;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38E02BE61CDB219F004BD9FF /* Build configuration list for PBXProject "QZSlideCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E02C161CDB219F004BD9FF /* Debug */,
+				38E02C171CDB219F004BD9FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38E02C181CDB219F004BD9FF /* Build configuration list for PBXNativeTarget "QZSlideCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E02C191CDB219F004BD9FF /* Debug */,
+				38E02C1A1CDB219F004BD9FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		38E02C1B1CDB219F004BD9FF /* Build configuration list for PBXNativeTarget "QZSlideCellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E02C1C1CDB219F004BD9FF /* Debug */,
+				38E02C1D1CDB219F004BD9FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		38E02C1E1CDB219F004BD9FF /* Build configuration list for PBXNativeTarget "QZSlideCellUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E02C1F1CDB219F004BD9FF /* Debug */,
+				38E02C201CDB219F004BD9FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38E02BE31CDB219F004BD9FF /* Project object */;
+}
